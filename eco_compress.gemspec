@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = EcoCompress::VERSION
   spec.authors       = ["Tatsuo Kaniwa"]
   spec.email         = ["tatsuo@kaniwa.biz"]
-  spec.description   = %q{Mnify Eco tempalte}
-  spec.summary       = %q{Mnify Eco tempalte}
+  spec.description   = %q{Mnify Eco template}
+  spec.summary       = %q{Mnify Eco template}
   spec.homepage      = "https://github.com/t-k/eco_compress"
   spec.license       = "MIT"
 
