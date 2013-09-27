@@ -10,13 +10,15 @@ Gem::Specification.new do |spec|
   spec.email         = ["tatsuo@kaniwa.biz"]
   spec.description   = %q{Mnify Eco tempalte}
   spec.summary       = %q{Mnify Eco tempalte}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/t-k/eco_compress"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = `git ls-files -- {spec}/*`.split("\n")
   spec.require_paths = ["lib"]
+
+  spec.required_ruby_version = '>= 1.9.3'
 
   spec.add_dependency "htmlcompressor"
   spec.add_dependency "eco"
