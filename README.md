@@ -1,5 +1,8 @@
 # EcoCompress
 
+[![Gem Version](https://badge.fury.io/rb/eco_compress.png)](https://rubygems.org/gems/eco_compress)
+[![Build Status](https://travis-ci.org/t-k/eco_compress.png)](https://travis-ci.org/t-k/eco_compress)
+
 The content of JST template is out of JS compressor's work. EcoCompress overrides Eco.compile method to minify the Eco's template source itself.
 
 To see more detail, see spec dir and compare minified files (e.g. *.min.out, *.min.js) to the original files (e.g. *.orig.out, *.orig.js).
